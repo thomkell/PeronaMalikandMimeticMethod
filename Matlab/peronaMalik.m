@@ -66,8 +66,6 @@ I2 = IX; % Initial condition image
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % iteration-Loop
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% iteration loop
 for t = 1 : 30
 
     % create vector with image data
@@ -89,7 +87,6 @@ for t = 1 : 30
     I2=reshape(L, 514, 514);
     
 end
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % convert image back to uint8 
