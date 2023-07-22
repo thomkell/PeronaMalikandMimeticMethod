@@ -20,7 +20,7 @@ RGB(:,1) = RGB(:,2);
 RGB(:,end) = RGB(:,end-1);   
 
 % add nois to image
-% RGB = imnoise(RGB,'gaussian');
+RGB = imnoise(RGB,'gaussian');
 
 % Read and display an RGB image, and then convert it to grayscale
 I = rgb2gray(RGB);
@@ -30,6 +30,8 @@ IX = double(I)+1;
 
 % I = imcrop(X,map,[240 240 39 39]); % [xmin ymin width height]
 % I = imcrop(X,map,[250 250 19 19]); % [xmin ymin width height]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define mimetic operators
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 k = 2;   % Order of accuracy
 m = 512;  % Number of cells along the x-axis
@@ -61,7 +63,9 @@ dt = dx^2/(10*alpha); % alpha = 1
 
 % IC
 I2 = IX; % Initial condition image
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% iteration-Loop
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % iteration loop
 for t = 1 : 30
@@ -85,6 +89,8 @@ for t = 1 : 30
     I2=reshape(L, 514, 514);
     
 end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % convert image back to uint8 
 I2=uint8((I2-1));
