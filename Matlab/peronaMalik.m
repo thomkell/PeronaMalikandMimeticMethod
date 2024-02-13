@@ -1,4 +1,4 @@
-% Perona Malik Equation with mimetic method
+% Perona Malik Equation with mimetic methods
 % Thomas Keller, COMP670, Project
 clc; clear; close all
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
