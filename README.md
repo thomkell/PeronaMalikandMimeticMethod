@@ -21,8 +21,6 @@ This project implements the **Perona-Malik diffusion** equation using a **mimeti
 - `Poster/CSRCR2023-06-3.pdf`: Poster of the CSRC2023 conference presentation
 - `README.md`: Project description and details
 
-Report: [Link](https://www.csrc.sdsu.edu/research_reports/CSRCR2023-06.pdf)
-
 ## Report:
 
 The full report can be found here: [CSRCR2023-06.pdf](https://www.csrc.sdsu.edu/research_reports/CSRCR2023-06.pdf)
