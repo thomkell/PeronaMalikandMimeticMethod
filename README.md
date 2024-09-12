@@ -17,7 +17,7 @@ This project implements the **Perona-Malik diffusion** equation using a **mimeti
 
 ## Files:
 
-- `Matlab/peronaMalik.m`: The main script that applies the Perona-Malik diffusion algorithm.
+- `Matlab/peronaMalik2.m`: The main script that applies the Perona-Malik diffusion algorithm.
 - `Poster/CSRCR2023-06-3.pdf`: Poster of the CSRC2023 conference presentation
 - `README.md`: Project description and details
 
